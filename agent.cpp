@@ -5,7 +5,7 @@
 #include "agent.h"
 #include <limits>
 #include "rapidjson/document.h"
-#include <rapidjson/istreamwrapper.h>
+#include "rapidjson/istreamwrapper.h"
 
 transport_mode agent::get_last_mode() const
 {
